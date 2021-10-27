@@ -1,0 +1,32 @@
+ALPHABET = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
+alike = ['o','y','a','ay','','r']
+blike = ['','c','v','p','d','qu']
+clike = ['','k','s','b','qu']
+dlike = ['','t','b','e']
+elike = ['','y','d']
+flike = ['','v']
+glike = ['','j']
+hlike = ['','l']
+ilike = ['','y']
+jlike = ['','g']
+klike = ['','c','qu']
+llike = ['','ll']
+mlike = ['','n']
+nlike = ['','m']
+olike = ['','oh','ow']
+plike = ['','b']
+qlike =['','qu','k']
+rlike = ['','er']
+slike = ['','ss']
+tlike = ['','tt']
+ulike = ['','oo']
+vlike = ['','b','w']
+wlike = ['','uu','m']
+xlike = ['','cks']
+ylike = ['i']
+word = 'hello' # this is would have been spoken
+correct = ['hello']
+for y in correct:   
+    for letters in word:
+        for alf in ALPHABET:
+            print(alf)
